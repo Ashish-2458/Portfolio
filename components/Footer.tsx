@@ -5,7 +5,6 @@ import { Heart, Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
 
 const quickLinks = [
   { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
   { name: 'Experience', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },

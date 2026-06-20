@@ -1,5 +1,4 @@
 import { Hero } from '@/components/Hero'
-import { About } from '@/components/About'
 import { Experience } from '@/components/Experience'
 import { Projects } from '@/components/Projects'
 import { Skills } from '@/components/Skills'
@@ -19,7 +18,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-dark-900 transition-colors duration-300">
       <Hero />
-      <About />
       <JourneyTimeline />
       <Experience />
       <Projects />

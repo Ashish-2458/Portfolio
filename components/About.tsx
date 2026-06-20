@@ -106,8 +106,8 @@ export function About() {
                       <p className="text-gray-600 dark:text-gray-400">21/11/2002</p>
                     </div>
                     <div className="col-span-2">
-                      <span className="font-semibold text-gray-900 dark:text-white">Place of Birth:</span>
-                      <p className="text-gray-600 dark:text-gray-400">Mirzapur, Uttar Pradesh, India</p>
+                      
+                      
                     </div>
                   </div>
                 </div>

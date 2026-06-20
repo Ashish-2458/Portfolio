@@ -96,7 +96,7 @@ export function Hero() {
                 Get In Touch
               </motion.a>
               <motion.a
-                href="/CV_ASHISH_MAURYA.pdf"
+                href="/ASHISH C_V.pdf"
                 download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -214,7 +214,7 @@ export function Hero() {
                 className="flex items-center justify-center gap-2 bg-green-500 text-white px-4 py-2.5 rounded-xl text-sm font-semibold shadow-md w-full"
               >
                 <span className="w-2 h-2 rounded-full bg-white animate-pulse flex-shrink-0" />
-                 Open to Opportunities 
+                Open to Opportunities
               </motion.div>
 
             </div>
