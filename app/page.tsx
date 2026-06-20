@@ -5,7 +5,6 @@ import { Skills } from '@/components/Skills'
 import { Achievements } from '@/components/Achievements'
 import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
-import { JourneyTimeline } from '@/components/JourneyTimeline'
 import { TechShowcase } from '@/components/TechShowcase'
 import dynamic from 'next/dynamic'
 
@@ -18,7 +17,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-dark-900 transition-colors duration-300">
       <Hero />
-      <JourneyTimeline />
       <Experience />
       <Projects />
       <Skills />

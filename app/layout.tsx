@@ -11,23 +11,23 @@ const Navigation = dynamic(() => import('@/components/Navigation').then(m => ({ 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ashish Maurya - Full Stack Developer & AI Enthusiast',
-  description: 'Portfolio of Ashish Maurya - Passionate Full Stack Developer specializing in AI/ML, React, Next.js, Python, and modern web technologies. Experienced in building scalable applications and innovative solutions.',
-  keywords: 'Ashish Maurya, Full Stack Developer, AI, Machine Learning, React, Next.js, Python, Web Development, Portfolio',
-  authors: [{ name: 'Ashish Maurya' }],
-  creator: 'Ashish Maurya',
+  title: 'Ashish Maurya – AI & ML Engineer | Full Stack Developer',
+  description: 'Portfolio of Ashishkumar Maurya – B.E. graduate in AI & Data Science from VESIT Mumbai. Specializes in computer vision, NLP, LLMs, and full-stack web development. Open to MS programs and international opportunities.',
+  keywords: 'Ashish Maurya, AI Engineer, Machine Learning, Computer Vision, NLP, LLMs, Full Stack Developer, React, Next.js, Python, YOLO, Deep Learning, VESIT Mumbai',
+  authors: [{ name: 'Ashishkumar Maurya' }],
+  creator: 'Ashishkumar Maurya',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://ashishmaurya.dev',
-    title: 'Ashish Maurya - Full Stack Developer & AI Enthusiast',
-    description: 'Portfolio of Ashish Maurya - Passionate Full Stack Developer specializing in AI/ML and modern web technologies.',
+    url: 'https://ashishmaurya.vercel.app',
+    title: 'Ashish Maurya – AI & ML Engineer | Full Stack Developer',
+    description: 'B.E. graduate in AI & Data Science. Building intelligent systems with computer vision, NLP, and full-stack development.',
     siteName: 'Ashish Maurya Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ashish Maurya - Full Stack Developer & AI Enthusiast',
-    description: 'Portfolio of Ashish Maurya - Passionate Full Stack Developer specializing in AI/ML and modern web technologies.',
+    title: 'Ashish Maurya – AI & ML Engineer | Full Stack Developer',
+    description: 'B.E. graduate in AI & Data Science. Building intelligent systems with computer vision, NLP, and full-stack development.',
   },
   robots: {
     index: true,

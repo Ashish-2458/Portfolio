@@ -70,7 +70,7 @@ export function Contact() {
     message: ''
   })
 
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -82,25 +82,20 @@ export function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setIsSubmitting(true)
-    
-    // Basic validation
     if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
-      setIsSubmitting(false)
       setSubmitStatus('error')
       setTimeout(() => setSubmitStatus('idle'), 3000)
       return
     }
-    
-    // Simulate form submission with realistic delay
-    setTimeout(() => {
-      setIsSubmitting(false)
-      setSubmitStatus('success')
-      setFormData({ name: '', email: '', subject: '', message: '' })
-      
-      // Reset status after 5 seconds
-      setTimeout(() => setSubmitStatus('idle'), 5000)
-    }, 2000)
+    // Open mailto with pre-filled content
+    const subject = encodeURIComponent(formData.subject || `Portfolio Contact from ${formData.name}`)
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    )
+    window.open(`mailto:maurya21ashish@gmail.com?subject=${subject}&body=${body}`, '_blank')
+    setSubmitStatus('success')
+    setFormData({ name: '', email: '', subject: '', message: '' })
+    setTimeout(() => setSubmitStatus('idle'), 5000)
   }
 
   return (

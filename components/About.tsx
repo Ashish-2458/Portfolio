@@ -6,8 +6,8 @@ import { Code, Brain, Rocket, Users, Award, Target } from 'lucide-react'
 
 const stats = [
   { label: 'Projects Completed', value: '10+', icon: Code },
-  { label: 'Technologies Mastered', value: '30+', icon: Brain },
-  { label: 'Competition Awards', value: '4', icon: Rocket },
+  { label: 'Technologies Mastered', value: '20+', icon: Brain },
+  { label: 'Competition Awards', value: '4+', icon: Rocket },
   { label: 'Certifications', value: '5+', icon: Users },
 ]
 
@@ -85,7 +85,7 @@ export function About() {
                     I'm passionate about AI for accessibility, computer vision, and NLP. Committed to expanding my research expertise through an <span className="text-primary-600 dark:text-primary-400 font-semibold">MS program in Germany</span>, where I can contribute to cutting-edge AI development and collaborate in cross-cultural learning environments.
                   </p>
                 </div>
-                
+
                 {/* Contact Info */}
                 <div className="mt-6 pt-6 border-t border-gray-200 dark:border-dark-700">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
@@ -106,8 +106,8 @@ export function About() {
                       <p className="text-gray-600 dark:text-gray-400">21/11/2002</p>
                     </div>
                     <div className="col-span-2">
-                      
-                      
+
+
                     </div>
                   </div>
                 </div>
@@ -133,12 +133,12 @@ export function About() {
               >
                 {/* Background gradient on hover */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-purple-50 dark:from-primary-900/20 dark:to-purple-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
+
                 <div className="relative z-10">
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-primary-500 to-purple-500 rounded-lg mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
                     <stat.icon className="w-6 h-6 text-white" />
                   </div>
-                  <motion.div 
+                  <motion.div
                     className="text-3xl font-bold gradient-text mb-2"
                     whileHover={{ scale: 1.1 }}
                   >
