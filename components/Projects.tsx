@@ -20,7 +20,7 @@ const projects = [
     ],
     icon: Brain,
     color: 'from-blue-500 to-cyan-500',
-    github: 'https://github.com/maurya-ashish',
+    github: 'https://github.com/Ashish-2458',
     demo: 'https://onevision-ai.netlify.app/',
     image: '/projects/ai-navigation.jpg',
     award: '🥈 1st Runner-Up'
@@ -40,7 +40,7 @@ const projects = [
     ],
     icon: Heart,
     color: 'from-red-500 to-pink-500',
-    github: 'https://github.com/maurya-ashish',
+    github: 'https://github.com/Ashish-2458',
     demo: '#',
     image: '/projects/health-platform.jpg'
   }
@@ -51,14 +51,14 @@ const additionalProjects = [
     title: 'Social Media Analytics Tool',
     description: 'Streamlit-based analytics platform providing content insights, profile improvement tips, and progress visualization with Blynk Cloud integration.',
     technologies: ['Streamlit', 'Python', 'LLM', 'Blynk', 'Data Visualization'],
-    github: 'https://github.com/maurya-ashish',
+    github: 'https://github.com/Ashish-2458',
     demo: '#'
   },
   {
     title: 'Modern Portfolio Website',
     description: 'Professional portfolio showcasing projects and skills with stunning animations, dark mode, and fully responsive design.',
     technologies: ['Next.js', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
-    github: 'https://github.com/maurya-ashish',
+    github: 'https://github.com/Ashish-2458',
     demo: '#'
   }
 ]
@@ -87,7 +87,7 @@ export function Projects() {
           </p>
           <div className="flex justify-center mt-6">
             <motion.a
-              href="https://github.com/ashishmaurya"
+              href="https://github.com/Ashish-2458"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

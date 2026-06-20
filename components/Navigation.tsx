@@ -78,7 +78,7 @@ export function Navigation() {
           {/* Social Links & Theme Toggle */}
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="https://github.com/maurya-ashish"
+              href="https://github.com/Ashish-2458"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, rotate: 5 }}
@@ -88,7 +88,7 @@ export function Navigation() {
               <Github size={20} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/ashishkumar-maurya"
+              href="https://www.linkedin.com/in/ashish-maurya-62396b1b2/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, rotate: -5 }}
@@ -160,7 +160,7 @@ export function Navigation() {
               ))}
               <div className="flex items-center space-x-4 px-3 py-2">
                 <motion.a
-                  href="https://github.com/maurya-ashish"
+                  href="https://github.com/Ashish-2458"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1 }}
@@ -169,7 +169,7 @@ export function Navigation() {
                   <Github size={20} />
                 </motion.a>
                 <motion.a
-                  href="https://linkedin.com/in/ashishkumar-maurya"
+                  href="https://www.linkedin.com/in/ashish-maurya-62396b1b2/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1 }}

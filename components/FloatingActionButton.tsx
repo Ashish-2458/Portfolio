@@ -20,13 +20,13 @@ const quickActions = [
   {
     icon: Github,
     label: 'GitHub',
-    href: 'https://github.com/maurya-ashish',
+    href: 'https://github.com/Ashish-2458',
     color: 'bg-gray-800 hover:bg-gray-900'
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/ashishkumar-maurya',
+    href: 'https://www.linkedin.com/in/ashish-maurya-62396b1b2/',
     color: 'bg-blue-600 hover:bg-blue-700'
   }
 ]

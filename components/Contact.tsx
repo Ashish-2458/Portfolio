@@ -40,13 +40,13 @@ const socialLinks = [
   {
     name: 'GitHub',
     icon: Github,
-    href: 'https://github.com/maurya-ashish',
+    href: 'https://github.com/Ashish-2458',
     color: 'hover:text-gray-900 dark:hover:text-white'
   },
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    href: 'https://linkedin.com/in/ashishkumar-maurya',
+    href: 'https://www.linkedin.com/in/ashish-maurya-62396b1b2/',
     color: 'hover:text-blue-600'
   },
   {

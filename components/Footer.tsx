@@ -16,13 +16,13 @@ const quickLinks = [
 const socialLinks = [
   {
     name: 'GitHub',
-    href: 'https://github.com/maurya-ashish',
+    href: 'https://github.com/Ashish-2458',
     icon: Github,
     color: 'hover:text-gray-900 dark:hover:text-white'
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/ashishkumar-maurya',
+    href: 'https://www.linkedin.com/in/ashish-maurya-62396b1b2/',
     icon: Linkedin,
     color: 'hover:text-blue-500'
   },
