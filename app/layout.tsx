@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/components/ThemeProvider'
-import { Navigation } from '@/components/Navigation'
-import { ScrollProgress } from '@/components/ScrollProgress'
 import dynamic from 'next/dynamic'
 
 const InteractiveCursor = dynamic(() => import('@/components/InteractiveCursor').then(m => ({ default: m.InteractiveCursor })), { ssr: false })
+const ScrollProgress = dynamic(() => import('@/components/ScrollProgress').then(m => ({ default: m.ScrollProgress })), { ssr: false })
+const Navigation = dynamic(() => import('@/components/Navigation').then(m => ({ default: m.Navigation })), { ssr: false })
 
 const inter = Inter({ subsets: ['latin'] })
 

@@ -8,7 +8,7 @@ const quickActions = [
   {
     icon: Mail,
     label: 'Email',
-    href: 'mailto:2022.ashishkumar.maurya@ves.ac.in',
+    href: 'mailto:maurya21ashish@gmail.com',
     color: 'bg-red-500 hover:bg-red-600'
   },
   {
@@ -20,13 +20,13 @@ const quickActions = [
   {
     icon: Github,
     label: 'GitHub',
-    href: 'https://github.com/ashishmaurya',
+    href: 'https://github.com/maurya-ashish',
     color: 'bg-gray-800 hover:bg-gray-900'
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/ashishmaurya',
+    href: 'https://linkedin.com/in/ashishkumar-maurya',
     color: 'bg-blue-600 hover:bg-blue-700'
   }
 ]
