@@ -74,9 +74,9 @@ export function About() {
                 </h3>
                 <div className="space-y-4 text-gray-600 dark:text-gray-400">
                   <p>
-                    I'm an ambitious final-year student pursuing a B.E. in 
-                    <span className="text-primary-600 dark:text-primary-400 font-semibold"> Artificial Intelligence & Data Science</span> at 
-                    Vivekanand Education Society's Institute of Technology (VESIT), Mumbai, maintaining a <span className="font-semibold">CGPA of 8.17</span>.
+                    I'm a recent B.E. graduate in
+                    <span className="text-primary-600 dark:text-primary-400 font-semibold"> Artificial Intelligence & Data Science</span> from
+                    Vivekanand Education Society's Institute of Technology (VESIT), Mumbai, with a <span className="font-semibold">CGPA of 8.17</span>.
                   </p>
                   <p>
                     With professional experience as a Frontend Developer Intern at Valnee Solutions and Full Stack Developer Intern at VES Institute of Technology, I've contributed to building production-grade AI platforms, enterprise ad intelligence systems, and comprehensive healthcare applications.

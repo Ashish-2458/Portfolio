@@ -75,7 +75,7 @@ export function Hero() {
               {...fadeUp(0.14)}
               className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-xl"
             >
-              Ambitious final-year B.E. student in Artificial Intelligence and Data Science
+              Recently graduated in B.E. Artificial Intelligence and Data Science
               with hands-on experience building full-stack AI platforms and deploying
               production-grade web applications. Passionate about computer vision, NLP,
               and AI for accessibility.
@@ -114,7 +114,7 @@ export function Hero() {
             >
               {[
                 { number: '2', label: 'Internships', icon: '💼' },
-                { number: '4', label: 'Awards', icon: '🏆' },
+                { number: '4+', label: 'Awards', icon: '🏆' },
                 { number: '5+', label: 'Certifications', icon: '🎓' },
               ].map(stat => (
                 <div key={stat.label} className="text-center">

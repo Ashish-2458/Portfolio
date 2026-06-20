@@ -35,8 +35,8 @@ const milestones = [
   },
   {
     year: '2026',
-    title: 'Ready for Next Chapter',
-    description: 'Seeking MS in Germany to advance AI research and development',
+    title: 'Graduated & Ready for Next Chapter',
+    description: 'Completed B.E. in AI & Data Science. Now seeking MS in Germany to advance AI research.',
     icon: Target,
     color: 'from-red-500 to-rose-500'
   }
@@ -68,7 +68,7 @@ export function JourneyTimeline() {
             My Journey
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            From curious student to AI innovator - tracking the milestones that shaped my path
+            From curious student to AI innovator — the milestones that shaped my path
           </p>
         </motion.div>
 

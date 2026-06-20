@@ -58,7 +58,7 @@ export function Footer() {
                 Ashish Maurya
               </h3>
               <p className="text-gray-400 mb-6 max-w-md">
-                Final-year AI & Data Science student at VESIT Mumbai. Building intelligent systems
+                AI & Data Science graduate from VESIT Mumbai. Building intelligent systems
                 that make a real-world impact through computer vision, NLP, and full-stack development.
               </p>
               <div className="flex items-center gap-2 text-sm text-gray-400">
